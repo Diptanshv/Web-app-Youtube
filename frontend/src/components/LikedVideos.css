@@ -1,0 +1,38 @@
+/* frontend/src/LikedVideos.css */
+.liked-videos {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text color for contrast */
+    padding: 20px;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+.videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-card {
+    background-color: #1e1e1e; /* Slightly lighter dark for cards */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.video-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video-stats {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}

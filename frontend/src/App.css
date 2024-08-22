@@ -1,0 +1,6 @@
+/* frontend/src/App.css */
+.app {
+  background-color: #121212; /* Dark background */
+  color: white; /* Light text color for contrast */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+}
